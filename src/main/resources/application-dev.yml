@@ -1,0 +1,12 @@
+server:
+    port: 8099
+#spring
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: local.rabbitmq.com
+    port: 5672
+    username: cloud-dev
+    password: cloud-dev
+    virtual-host: /
